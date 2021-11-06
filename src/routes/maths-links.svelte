@@ -1,5 +1,5 @@
 <script lang="ts">
-  import NormalPage from '$lib/components/NormalPage.svelte'
+  import NormalPage from '$lib/app/NormalPage.svelte'
 
   import bourke_img from '/img/math-bourke.png'
   import bugman_img from '/img/math-bugman.png'
@@ -8,12 +8,14 @@
   import jos_img from '/img/math-jos.png'
   import beth_img from '/img/math-beth.png'
   import anti_img from '/img/math-anti.png'
+
+  const TITLE = 'Maths Links'
 </script>
 
-<title>Martin's Maths Links</title>
+<title>Martin's {TITLE}</title>
 
 <NormalPage ident="maths" date="2016-09-17">
-  <h1>Maths Links</h1>
+  <h1>{TITLE}</h1>
 
   <div class="card">
     <img src={bourke_img} alt="bourke" />

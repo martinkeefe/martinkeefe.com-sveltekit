@@ -1,6 +1,6 @@
 <script lang="ts">
-  import NormalPage from '$lib/components/NormalPage.svelte'
-  import ShadeBob from '$lib/components/ShadeBob.svelte'
+  import NormalPage from '$lib/app/NormalPage.svelte'
+  import ShadeBob from '$lib/app/ShadeBob.svelte'
 </script>
 
 <title>Martin's Stuff</title>
@@ -9,12 +9,9 @@
   <div slot="side">
     <hr />
     <p>
-      <b>Techie Note:</b> This site is a static single page app written in
+      <b>Techie Note:</b> This site is written in
       <a href="https://www.typescriptlang.org/">TypeScript</a>
-      using <a href="https://reactjs.org/">React</a> &amp;
-      <a href="https://redux.js.org/">Redux</a>, built with
-      <a href="https://webpack.js.org/">WebPack</a>
-      &amp; <a href="https://babeljs.io/">Babel</a>, and hosted on
+      using <a href="https://kit.svelte.dev/">SvelteKit</a> and hosted on
       <a href="https://aws.amazon.com/s3/">AWS S3</a>
       with data stored in <a href="https://aws.amazon.com/dynamodb/">AWS DynamoDB</a>. If you’re
       curious you can browse the source code on
