@@ -2,7 +2,7 @@
   export let ident: string
   export let date: string = ''
 
-  import martian from '/img/martian.png'
+  import martian from '../../../static/img/martian.png'
   import SideNav from './SideNav.svelte'
   import menu from '$lib/menu'
 </script>

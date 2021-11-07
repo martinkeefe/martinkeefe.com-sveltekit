@@ -8,6 +8,8 @@
     dislike: '#F80',
     hate: '#D00',
   }
+
+  // https://unicode.org/emoji/charts/index.html
   const EMOJI = {
     love: '❤',
     like: '👍',

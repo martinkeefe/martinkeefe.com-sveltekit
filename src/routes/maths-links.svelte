@@ -1,13 +1,13 @@
 <script lang="ts">
   import NormalPage from '$lib/app/NormalPage.svelte'
 
-  import bourke_img from '/img/math-bourke.png'
-  import bugman_img from '/img/math-bugman.png'
-  import miqel_img from '/img/math-miqel.png'
-  import dim_img from '/img/math-dim.png'
-  import jos_img from '/img/math-jos.png'
-  import beth_img from '/img/math-beth.png'
-  import anti_img from '/img/math-anti.png'
+  import bourke_img from '../../static/img/math-bourke.png'
+  import bugman_img from '../../static/img/math-bugman.png'
+  import miqel_img from '../../static/img/math-miqel.png'
+  import dim_img from '../../static/img/math-dim.png'
+  import jos_img from '../../static/img/math-jos.png'
+  import beth_img from '../../static/img/math-beth.png'
+  import anti_img from '../../static/img/math-anti.png'
 
   const TITLE = 'Maths Links'
 </script>

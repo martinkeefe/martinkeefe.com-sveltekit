@@ -4,16 +4,16 @@
 
   export let film: Film
 
-  import imdb from '/img/icons8-imdb-48.png'
-  import youtube from '/img/icons8-play-button-48.png'
-  import tomato from '/img/icons8-tomato-48.png'
-  import netflix from '/img/icons8-netflix-48.png'
-  import zooqle from '/img/zq-logo.png'
+  import imdb from '../../../static/img/icons8-imdb-48.png'
+  import youtube from '../../../static/img/icons8-play-button-48.png'
+  import tomato from '../../../static/img/icons8-tomato-48.png'
+  import netflix from '../../../static/img/icons8-netflix-48.png'
+  import zooqle from '../../../static/img/zq-logo.png'
 
-  import fr from '/img/icons8-france-48.png'
-  import de from '/img/icons8-germany-48.png'
-  import it from '/img/icons8-italy-48.png'
-  import jp from '/img/icons8-japan-48.png'
+  import fr from '../../../static/img/icons8-france-48.png'
+  import de from '../../../static/img/icons8-germany-48.png'
+  import it from '../../../static/img/icons8-italy-48.png'
+  import jp from '../../../static/img/icons8-japan-48.png'
 
   const MONTH = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
   const IMG = { imdb, youtube, tomato, netflix, zooqle, fr, de, it, jp }

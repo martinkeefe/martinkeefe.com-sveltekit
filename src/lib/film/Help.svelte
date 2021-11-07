@@ -1,11 +1,11 @@
 <script lang="ts">
   import Rate from './Rate.svelte'
 
-  import imdb from '/img/icons8-imdb-48.png'
-  import youtube from '/img/icons8-play-button-48.png'
-  import tomato from '/img/icons8-tomato-48.png'
-  import netflix from '/img/icons8-netflix-48.png'
-  import zooqle from '/img/zq-logo.png'
+  import imdb from '../../../static/img/icons8-imdb-48.png'
+  import youtube from '../../../static/img/icons8-play-button-48.png'
+  import tomato from '../../../static/img/icons8-tomato-48.png'
+  import netflix from '../../../static/img/icons8-netflix-48.png'
+  import zooqle from '../../../static/img/zq-logo.png'
 
   let help = false
 </script>
